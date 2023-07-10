@@ -1,0 +1,10 @@
+[A,2,10,5,9] = High Card (A)
+[Q,J,3,6,9] = High (Q)
+[9,9,10,5,9] = Pair (9) 
+[2,2,9,9,9] = Trips (9)
+[3,2,5,5,9] = Pair (5)
+
+Loop through each hand and assign highest hierarchy
+Loop through highest hierarchy and assign highest hierarchy
+	If more than one, highest value wins
+	Else: hierarchy wins
